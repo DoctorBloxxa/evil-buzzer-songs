@@ -93,7 +93,7 @@ NOTE_DS8=4978
 
 SCALE=2
 
-NOTE=$((1250/$SCALE))
+NOTE=$((1300/$SCALE))
 HALF=$(($NOTE/2))
 QUARTER=$(($HALF/2))
 EIGTH=$(($HALF/2))
@@ -118,4 +118,4 @@ beep \
 	-n -f $NOTE_FS6		-l	$HALF			\
 	-n -f $NOTE_D6		-l	$EIGTH			\
 	-n -f $NOTE_E6		-l	$EIGTH			\
-	-n -f $NOTE_D6		-l	$HALF
+	-n -f $NOTE_D6		-l	$HALF			
